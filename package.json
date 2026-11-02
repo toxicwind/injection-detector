@@ -1,0 +1,10 @@
+{
+  "name": "@toxicwind/injection-detector",
+  "version": "0.1.0",
+  "description": "Zero-cost prompt-injection flagging via the bge-m3 instruction-vs-data axis. One embed + one dot product = a free injection tripwire for any text entering an agent context.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "bun test" }
+}
